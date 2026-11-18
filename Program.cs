@@ -47,28 +47,42 @@
 // Console.WriteLine(result);
 // }
 
-double CalculateAverageGrade(int[] grades)
-{
-    int sum = 0;
-    foreach (int grade in grades)
-    {
-        sum += grade;
-    }
-    return (double)sum / grades.Length;
-}
+// double CalculateAverageGrade(int[] grades)
+// {
+//     int sum = 0;
+//     foreach (int grade in grades)
+//     {
+//         sum += grade;
+//     }
+//     return (double)sum / grades.Length;
+// }
 
-int CountFives(int[] grades) {
-        int count = 0;
-        foreach (int grade in grades) {
-            if (grade == 5) {
-                count++;
-            }
-        }
-        return count;
-    }
+// int CountFives(int[] grades) {
+//         int count = 0;
+//         foreach (int grade in grades) {
+//             if (grade == 5) {
+//                 count++;
+//             }
+//         }
+//         return count;
+//     }
 
-int[] grades = { 4, 5, 3, 5, 4 };
-double average = CalculateAverageGrade(grades);
-int fcount = CountFives(grades);
-Console.WriteLine(fcount);
-Console.WriteLine(average);
+// int[] grades = { 4, 5, 3, 5, 4 };
+// double average = CalculateAverageGrade(grades);
+// int fcount = CountFives(grades);
+// Console.WriteLine(fcount);
+// Console.WriteLine(average);
+
+// void PrintDivider()
+// {
+//     Console.WriteLine("  ");
+// }
+
+// Console.WriteLine("Считаем до трёх");
+// PrintDivider();
+// Console.WriteLine("Раз");
+// PrintDivider();
+// Console.WriteLine("Два");
+// PrintDivider();
+// Console.WriteLine("Три");
+
