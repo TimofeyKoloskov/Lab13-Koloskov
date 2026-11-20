@@ -86,3 +86,10 @@
 // PrintDivider();
 // Console.WriteLine("Три");
 
+double CalculateArea(double width, double height)
+{
+    return width * height;
+}
+
+double area = CalculateArea(5.0, 10.0);
+Console.WriteLine($"Площадь прямоугольника: {area}");
